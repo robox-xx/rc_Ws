@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/install
+
+Name: rc_gazebo
+Description: Description of rc_gazebo
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrc_action_hw_sim
+Requires: roscpp rc_common gazebo_ros gazebo_ros_control

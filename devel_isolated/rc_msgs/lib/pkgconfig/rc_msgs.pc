@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/devel_isolated/rc_msgs
+
+Name: rc_msgs
+Description: Description of rc_msgs
+Version: 0.0.0
+Cflags: -I/home/xie/rc_ws/devel_isolated/rc_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs geometry_msgs actionlib actionlib_msgs

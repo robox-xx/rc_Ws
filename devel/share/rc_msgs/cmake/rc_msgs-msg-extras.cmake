@@ -1,0 +1,2 @@
+set(rc_msgs_MESSAGE_FILES "/home/xie/rc_ws/src/rc_control/rc_msgs/msg/ActuatorState.msg;/home/xie/rc_ws/src/rc_control/rc_msgs/msg/GpioData.msg;/home/xie/rc_ws/src/rc_control/rc_msgs/msg/LpData.msg;/home/xie/rc_ws/src/rc_control/rc_msgs/msg/ActionData.msg;/home/xie/rc_ws/src/rc_control/rc_msgs/msg/ChassisCmd.msg;/home/xie/rc_ws/src/rc_control/rc_msgs/msg/IbusData.msg")
+set(rc_msgs_SERVICE_FILES "/home/xie/rc_ws/src/rc_control/rc_msgs/srv/ActionCmd.srv")

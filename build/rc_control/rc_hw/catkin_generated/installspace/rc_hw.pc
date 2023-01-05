@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/install
+
+Name: rc_hw
+Description: Description of rc_hw
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrc_hw_loader_plugins
+Requires: roscpp roslint rc_common rc_msgs hardware_interface controller_interface transmission_interface joint_limits_interface controller_manager urdf realtime_tools serial

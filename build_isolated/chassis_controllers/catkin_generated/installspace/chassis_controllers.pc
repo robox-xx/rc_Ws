@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/install_isolated
+
+Name: chassis_controllers
+Description: Description of chassis_controllers
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lchassis_controllers
+Requires: roscpp rc_common effort_controllers tf2_geometry_msgs

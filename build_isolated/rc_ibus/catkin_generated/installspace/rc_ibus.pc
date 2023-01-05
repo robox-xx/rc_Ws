@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/install_isolated
+
+Name: rc_ibus
+Description: Description of rc_ibus
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rc_common

@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/devel_isolated/action_controller
+
+Name: action_controller
+Description: Description of action_controller
+Version: 0.0.0
+Cflags: -I/home/xie/rc_ws/src/rc_controllers/action_controller/include
+Libs: -L${prefix}/lib -laction_controller
+Requires: roscpp rc_common pluginlib controller_interface realtime_tools

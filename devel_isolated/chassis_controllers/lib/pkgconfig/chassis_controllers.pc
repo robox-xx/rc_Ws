@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/devel_isolated/chassis_controllers
+
+Name: chassis_controllers
+Description: Description of chassis_controllers
+Version: 0.0.0
+Cflags: -I/home/xie/rc_ws/src/rc_controllers/chassis_controllers/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lchassis_controllers
+Requires: roscpp rc_common effort_controllers tf2_geometry_msgs

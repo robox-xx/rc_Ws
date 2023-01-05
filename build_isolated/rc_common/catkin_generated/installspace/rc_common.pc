@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/install_isolated
+
+Name: rc_common
+Description: Description of rc_common
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lrc_common
+Requires: tf rc_msgs geometry_msgs control_msgs controller_manager_msgs imu_complementary_filter imu_filter_madgwick roscpp dynamic_reconfigure

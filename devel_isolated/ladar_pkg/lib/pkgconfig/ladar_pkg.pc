@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/devel_isolated/ladar_pkg
+
+Name: ladar_pkg
+Description: Description of ladar_pkg
+Version: 0.0.0
+Cflags: -I/home/xie/rc_ws/src/ladar_pkg/include
+Libs: -L${prefix}/lib 
+Requires: 

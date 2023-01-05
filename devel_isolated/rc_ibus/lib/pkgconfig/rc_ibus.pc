@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/devel_isolated/rc_ibus
+
+Name: rc_ibus
+Description: Description of rc_ibus
+Version: 0.0.0
+Cflags: -I/home/xie/rc_ws/src/rc_control/rc_ibus/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rc_common

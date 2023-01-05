@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/devel_isolated/rc_navigation
+
+Name: rc_navigation
+Description: Description of rc_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/install
+
+Name: rc_config
+Description: Description of rc_config
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

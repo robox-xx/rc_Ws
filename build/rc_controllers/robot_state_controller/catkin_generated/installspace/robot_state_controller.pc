@@ -1,0 +1,8 @@
+prefix=/home/xie/rc_ws/install
+
+Name: robot_state_controller
+Description: Description of robot_state_controller
+Version: 0.1.8
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrobot_state_controller
+Requires: roscpp rc_common controller_interface kdl_parser realtime_tools
